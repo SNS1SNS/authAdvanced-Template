@@ -1260,3 +1260,12 @@ Caused by: org.postgresql.util.PSQLException: ï¿½ï¿½ï¿½ï¿½ï¿½: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿
         or upper(ue1_0.username)=upper(?)
 2025-10-05 12:06:08.110 [http-nio-8081-exec-4] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
 2025-10-05 12:06:10.112 [http-nio-8081-exec-6] WARN  c.b.p.controller.AuthController - Rate limit exceeded for login from IP: 0:0:0:0:0:0:0:1
+2025-10-05 12:10:14.851 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-05 12:10:14.867 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-05 12:10:14.876 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-05 12:10:14.879 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - 
+    set client_min_messages = WARNING
+2025-10-05 12:10:14.880 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade
+2025-10-05 12:10:14.905 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-05 12:10:14.909 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
