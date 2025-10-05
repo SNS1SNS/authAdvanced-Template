@@ -1163,3 +1163,100 @@ Caused by: org.postgresql.util.PSQLException: �����: ������
 2025-10-05 12:01:00.168 [http-nio-8081-exec-4] INFO  c.b.p.controller.AuthController - Токен успешно обновлен
 2025-10-05 12:01:00.880 [http-nio-8081-exec-6] WARN  c.b.p.controller.AuthController - Rate limit exceeded for token refresh from IP: 0:0:0:0:0:0:0:1
 2025-10-05 12:01:01.591 [http-nio-8081-exec-8] WARN  c.b.p.controller.AuthController - Rate limit exceeded for token refresh from IP: 0:0:0:0:0:0:0:1
+2025-10-05 12:05:54.554 [http-nio-8081-exec-3] INFO  c.b.p.controller.AuthController - Обновление токена для пользователя
+2025-10-05 12:05:54.561 [http-nio-8081-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        ue1_0.email=?
+2025-10-05 12:05:54.565 [http-nio-8081-exec-3] INFO  c.b.p.controller.AuthController - Токен успешно обновлен
+2025-10-05 12:06:00.926 [http-nio-8081-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 12:06:01.047 [http-nio-8081-exec-5] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 12:06:02.378 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 12:06:02.500 [http-nio-8081-exec-1] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 12:06:03.713 [http-nio-8081-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 12:06:03.831 [http-nio-8081-exec-10] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 12:06:05.882 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 12:06:06.005 [http-nio-8081-exec-2] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 12:06:07.985 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 12:06:08.110 [http-nio-8081-exec-4] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 12:06:10.112 [http-nio-8081-exec-6] WARN  c.b.p.controller.AuthController - Rate limit exceeded for login from IP: 0:0:0:0:0:0:0:1
