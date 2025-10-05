@@ -1,0 +1,105 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: auth-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/project
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    #      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+
+  security:
+    user:
+      name: admin
+      password: admin
+
+
+jwt:
+  access:
+    secret: ${JWT_ACCESS_SECRET:your-super-secret-access-key-that-is-at-least-32-characters-long-for-development-only}
+    ttl: ${JWT_ACCESS_TTL:3600}
+  refresh:
+    secret: ${JWT_REFRESH_SECRET:your-super-secret-refresh-key-that-is-at-least-32-characters-long-for-development-only}
+    ttl: ${JWT_REFRESH_TTL:86400}
+
+
+
+
+# Logging Configuration
+logging:
+  level:
+    com.bigproject.auth: INFO
+    org.springframework.security: WARN
+    org.springframework.web: INFO
+    com.netflix.eureka: INFO
+    com.netflix.discovery: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: logs/auth-service.log
+    max-size: 10MB
+    max-history: 30
+# Actuator Configuration
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
+      show-components: always
+  health:
+    defaults:
+      enabled: true
+    db:
+      enabled: true
+    diskspace:
+      enabled: true
+    eureka:
+      enabled: true
+
+# Swagger/OpenAPI
+springdoc:
+  api-docs:
+    path: /api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    operationsSorter: method
+    tagsSorter: alpha
+    docExpansion: none
+    disable-swagger-default-url: true
+    display-request-duration: true
+    filter: true
+    deep-linking: true
+    display-operation-id: false
+    default-models-expand-depth: 1
+    default-model-expand-depth: 1
+    default-model-render-depth: 3
+    show-common-extensions: true
+    show-extensions: true
+    try-it-out-enabled: true
+    request-snippets-enabled: true
+    response-interceptors: true
+    syntax-highlight:
+      activated: true
+      theme: agate
+  paths-to-match: /api/**
