@@ -8,7 +8,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/project
     username: postgres
-    password: postgres
+    password: nurik1255
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -34,6 +34,18 @@ jwt:
   refresh:
     secret: ${JWT_REFRESH_SECRET:your-super-secret-refresh-key-that-is-at-least-32-characters-long-for-development-only}
     ttl: ${JWT_REFRESH_TTL:86400}
+
+# Rate Limiting Configuration
+rate-limit:
+  login:
+    requests: ${RATE_LIMIT_LOGIN_REQUESTS:5}      # Количество попыток входа
+    period: ${RATE_LIMIT_LOGIN_PERIOD:1}          # Период в минутах
+  register:
+    requests: ${RATE_LIMIT_REGISTER_REQUESTS:3}   # Количество попыток регистрации
+    period: ${RATE_LIMIT_REGISTER_PERIOD:60}      # Период в минутах (1 час)
+  refresh:
+    requests: ${RATE_LIMIT_REFRESH_REQUESTS:10}    # Количество попыток обновления токена
+    period: ${RATE_LIMIT_REFRESH_PERIOD:1}        # Период в минутах
 
 
 

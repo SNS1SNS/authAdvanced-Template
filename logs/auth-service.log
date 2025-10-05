@@ -533,3 +533,633 @@
         upper(ue1_0.email)=upper(?) 
         or upper(ue1_0.username)=upper(?)
 2025-10-05 11:31:43.847 [http-nio-8081-exec-9] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 11:56:48.792 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 11:56:49.019 [http-nio-8081-exec-1] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 11:56:50.284 [http-nio-8081-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 11:56:50.422 [http-nio-8081-exec-5] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 11:56:51.544 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 11:56:51.699 [http-nio-8081-exec-4] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 11:56:52.730 [http-nio-8081-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 11:56:52.862 [http-nio-8081-exec-6] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 11:56:53.842 [http-nio-8081-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 11:56:53.969 [http-nio-8081-exec-7] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 11:56:54.857 [http-nio-8081-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 11:56:54.998 [http-nio-8081-exec-8] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 11:56:55.914 [http-nio-8081-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 11:56:56.035 [http-nio-8081-exec-9] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 11:58:39.561 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-05 11:58:39.619 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-05 11:58:39.718 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-05 11:58:39.777 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - 
+    set client_min_messages = WARNING
+2025-10-05 11:58:39.782 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade
+2025-10-05 11:58:39.876 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-05 11:58:39.917 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-05 11:58:47.164 [main] INFO  c.basic.project.ProjectApplication - Starting ProjectApplication using Java 23.0.2 with PID 7396 (C:\Users\User\Downloads\project\target\classes started by User in C:\Users\User\Downloads\project)
+2025-10-05 11:58:47.165 [main] INFO  c.basic.project.ProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-05 11:58:48.176 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-05 11:58:48.235 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2025-10-05 11:58:48.777 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-05 11:58:48.795 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-05 11:58:48.795 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-05 11:58:48.852 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-05 11:58:48.853 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1620 ms
+2025-10-05 11:58:49.054 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-05 11:58:49.131 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-05 11:58:49.179 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-05 11:58:49.467 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-05 11:58:49.498 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-05 11:58:50.667 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 28P01
+2025-10-05 11:58:50.667 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+2025-10-05 11:58:50.668 [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+org.hibernate.exception.GenericJDBCException: unable to obtain isolated JDBC connection [�����: ������������ "postgres" �� ������ �������� ����������� (�� ������)] [n/a]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:63)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:334)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.basic.project.ProjectApplication.main(ProjectApplication.java:12)
+Caused by: org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:777)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:234)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:289)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:57)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:277)
+	at org.postgresql.Driver.makeConnection(Driver.java:448)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:370)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:207)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:485)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	... 35 common frames omitted
+2025-10-05 11:58:50.698 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-05 11:58:50.710 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (null)']
+	Database driver: undefined/unknown
+	Database version: 12.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-05 11:58:51.497 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-05 11:58:51.515 [main] DEBUG org.hibernate.SQL - 
+    set client_min_messages = WARNING
+2025-10-05 11:58:51.516 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-05 11:58:52.576 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 28P01
+2025-10-05 11:58:52.576 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+2025-10-05 11:58:52.580 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [�����: ������������ "postgres" �� ������ �������� ����������� (�� ������)] [n/a]
+2025-10-05 11:58:52.581 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [�����: ������������ "postgres" �� ������ �������� ����������� (�� ������)] [n/a]
+2025-10-05 11:58:52.582 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-10-05 11:58:52.591 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-05 11:58:52.606 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [�����: ������������ "postgres" �� ������ �������� ����������� (�� ������)] [n/a]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.basic.project.ProjectApplication.main(ProjectApplication.java:12)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [�����: ������������ "postgres" �� ������ �������� ����������� (�� ������)] [n/a]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:431)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822)
+	... 15 common frames omitted
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [�����: ������������ "postgres" �� ������ �������� ����������� (�� ������)] [n/a]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:63)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.getIsolatedConnection(GenerationTargetToDatabase.java:60)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.jdbcStatement(GenerationTargetToDatabase.java:112)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:79)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:213)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:186)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:156)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:116)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:238)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	... 19 common frames omitted
+Caused by: org.postgresql.util.PSQLException: �����: ������������ "postgres" �� ������ �������� ����������� (�� ������)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:777)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:234)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:289)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:57)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:277)
+	at org.postgresql.Driver.makeConnection(Driver.java:448)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:370)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:207)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:485)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46)
+	... 39 common frames omitted
+2025-10-05 11:59:10.480 [main] INFO  c.basic.project.ProjectApplication - Starting ProjectApplication using Java 23.0.2 with PID 9924 (C:\Users\User\Downloads\project\target\classes started by User in C:\Users\User\Downloads\project)
+2025-10-05 11:59:10.481 [main] INFO  c.basic.project.ProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-05 11:59:11.181 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-05 11:59:11.227 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2025-10-05 11:59:11.696 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-05 11:59:11.709 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-05 11:59:11.710 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-05 11:59:11.767 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-05 11:59:11.767 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1212 ms
+2025-10-05 11:59:11.910 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-05 11:59:11.961 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-05 11:59:11.992 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-05 11:59:12.218 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-05 11:59:12.243 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-05 11:59:12.413 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ee581db
+2025-10-05 11:59:12.414 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-05 11:59:12.458 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-05 11:59:12.477 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-05 11:59:13.129 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-05 11:59:13.142 [main] DEBUG org.hibernate.SQL - 
+    set client_min_messages = WARNING
+2025-10-05 11:59:13.144 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade
+2025-10-05 11:59:13.153 [main] DEBUG org.hibernate.SQL - 
+    create table users (
+        enabled boolean not null,
+        created_at timestamp(6) not null,
+        id bigint generated by default as identity,
+        updated_at timestamp(6),
+        email varchar(255) not null unique,
+        password varchar(255) not null,
+        phone varchar(255),
+        username varchar(255) not null unique,
+        primary key (id)
+    )
+2025-10-05 11:59:13.181 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-05 11:59:13.506 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-05 11:59:13.937 [main] INFO  c.basic.project.service.JwtService - JWT access token: your-super-secret-access-key-that-is-at-least-32-characters-long-for-development-onlys, refreshToken: your-super-secret-refresh-key-that-is-at-least-32-characters-long-for-development-onlys
+2025-10-05 11:59:13.966 [main] INFO  c.b.project.config.RateLimitConfig - Login rate limit configured: 5 requests per 1 minutes
+2025-10-05 11:59:13.979 [main] INFO  c.b.project.config.RateLimitConfig - Register rate limit configured: 3 requests per 60 minutes
+2025-10-05 11:59:13.982 [main] INFO  c.b.project.config.RateLimitConfig - Refresh rate limit configured: 10 requests per 1 minutes
+2025-10-05 11:59:14.104 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-05 11:59:14.453 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-05 11:59:14.716 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-05 11:59:14.724 [main] INFO  c.basic.project.ProjectApplication - Started ProjectApplication in 4.707 seconds (process running for 5.304)
+2025-10-05 11:59:21.527 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-05 11:59:21.527 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-05 11:59:21.529 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-10-05 11:59:22.613 [http-nio-8081-exec-9] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 351 ms
+2025-10-05 11:59:29.338 [http-nio-8081-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 11:59:29.395 [http-nio-8081-exec-6] WARN  c.basic.project.service.AuthService - User not found: ivans.ivanov@example.com
+2025-10-05 11:59:29.401 [http-nio-8081-exec-6] WARN  c.b.p.controller.AuthController - Неверные учетные данные
+2025-10-05 11:59:29.403 [http-nio-8081-exec-6] ERROR c.b.p.controller.AuthController - Ошибка аутентификации: Неверные учетные данные
+2025-10-05 11:59:33.902 [http-nio-8081-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id 
+    from
+        users ue1_0 
+    where
+        ue1_0.email=? 
+    fetch
+        first ? rows only
+2025-10-05 11:59:33.909 [http-nio-8081-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id 
+    from
+        users ue1_0 
+    where
+        ue1_0.username=? 
+    fetch
+        first ? rows only
+2025-10-05 11:59:34.090 [http-nio-8081-exec-8] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        users
+        (created_at, email, enabled, password, phone, updated_at, username) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-10-05 11:59:36.821 [http-nio-8081-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 11:59:36.951 [http-nio-8081-exec-7] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 11:59:37.878 [http-nio-8081-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 11:59:38.012 [http-nio-8081-exec-9] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 11:59:38.933 [http-nio-8081-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 11:59:39.066 [http-nio-8081-exec-3] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 11:59:39.885 [http-nio-8081-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        upper(ue1_0.email)=upper(?) 
+        or upper(ue1_0.username)=upper(?)
+2025-10-05 11:59:40.018 [http-nio-8081-exec-5] INFO  c.basic.project.service.AuthService - User logged in successfully: ivans.ivanov@example.com
+2025-10-05 11:59:40.802 [http-nio-8081-exec-1] WARN  c.b.p.controller.AuthController - Rate limit exceeded for login from IP: 0:0:0:0:0:0:0:1
+2025-10-05 12:00:50.994 [http-nio-8081-exec-4] INFO  c.b.p.controller.AuthController - Обновление токена для пользователя
+2025-10-05 12:00:51.023 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        ue1_0.email=?
+2025-10-05 12:00:51.029 [http-nio-8081-exec-4] INFO  c.b.p.controller.AuthController - Токен успешно обновлен
+2025-10-05 12:00:53.572 [http-nio-8081-exec-6] INFO  c.b.p.controller.AuthController - Обновление токена для пользователя
+2025-10-05 12:00:53.576 [http-nio-8081-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        ue1_0.email=?
+2025-10-05 12:00:53.581 [http-nio-8081-exec-6] INFO  c.b.p.controller.AuthController - Токен успешно обновлен
+2025-10-05 12:00:54.474 [http-nio-8081-exec-8] INFO  c.b.p.controller.AuthController - Обновление токена для пользователя
+2025-10-05 12:00:54.479 [http-nio-8081-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        ue1_0.email=?
+2025-10-05 12:00:54.484 [http-nio-8081-exec-8] INFO  c.b.p.controller.AuthController - Токен успешно обновлен
+2025-10-05 12:00:55.186 [http-nio-8081-exec-7] INFO  c.b.p.controller.AuthController - Обновление токена для пользователя
+2025-10-05 12:00:55.190 [http-nio-8081-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        ue1_0.email=?
+2025-10-05 12:00:55.196 [http-nio-8081-exec-7] INFO  c.b.p.controller.AuthController - Токен успешно обновлен
+2025-10-05 12:00:55.900 [http-nio-8081-exec-9] INFO  c.b.p.controller.AuthController - Обновление токена для пользователя
+2025-10-05 12:00:55.905 [http-nio-8081-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        ue1_0.email=?
+2025-10-05 12:00:55.910 [http-nio-8081-exec-9] INFO  c.b.p.controller.AuthController - Токен успешно обновлен
+2025-10-05 12:00:56.598 [http-nio-8081-exec-3] INFO  c.b.p.controller.AuthController - Обновление токена для пользователя
+2025-10-05 12:00:56.604 [http-nio-8081-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        ue1_0.email=?
+2025-10-05 12:00:56.608 [http-nio-8081-exec-3] INFO  c.b.p.controller.AuthController - Токен успешно обновлен
+2025-10-05 12:00:57.293 [http-nio-8081-exec-5] INFO  c.b.p.controller.AuthController - Обновление токена для пользователя
+2025-10-05 12:00:57.299 [http-nio-8081-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        ue1_0.email=?
+2025-10-05 12:00:57.303 [http-nio-8081-exec-5] INFO  c.b.p.controller.AuthController - Токен успешно обновлен
+2025-10-05 12:00:57.950 [http-nio-8081-exec-1] INFO  c.b.p.controller.AuthController - Обновление токена для пользователя
+2025-10-05 12:00:57.955 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        ue1_0.email=?
+2025-10-05 12:00:57.958 [http-nio-8081-exec-1] INFO  c.b.p.controller.AuthController - Токен успешно обновлен
+2025-10-05 12:00:58.753 [http-nio-8081-exec-10] INFO  c.b.p.controller.AuthController - Обновление токена для пользователя
+2025-10-05 12:00:58.757 [http-nio-8081-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        ue1_0.email=?
+2025-10-05 12:00:58.760 [http-nio-8081-exec-10] INFO  c.b.p.controller.AuthController - Токен успешно обновлен
+2025-10-05 12:00:59.288 [http-nio-8081-exec-2] INFO  c.b.p.controller.AuthController - Обновление токена для пользователя
+2025-10-05 12:00:59.291 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        ue1_0.email=?
+2025-10-05 12:00:59.297 [http-nio-8081-exec-2] INFO  c.b.p.controller.AuthController - Токен успешно обновлен
+2025-10-05 12:01:00.159 [http-nio-8081-exec-4] INFO  c.b.p.controller.AuthController - Обновление токена для пользователя
+2025-10-05 12:01:00.164 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        ue1_0.id,
+        ue1_0.created_at,
+        ue1_0.email,
+        ue1_0.enabled,
+        ue1_0.password,
+        ue1_0.phone,
+        ue1_0.updated_at,
+        ue1_0.username 
+    from
+        users ue1_0 
+    where
+        ue1_0.email=?
+2025-10-05 12:01:00.168 [http-nio-8081-exec-4] INFO  c.b.p.controller.AuthController - Токен успешно обновлен
+2025-10-05 12:01:00.880 [http-nio-8081-exec-6] WARN  c.b.p.controller.AuthController - Rate limit exceeded for token refresh from IP: 0:0:0:0:0:0:0:1
+2025-10-05 12:01:01.591 [http-nio-8081-exec-8] WARN  c.b.p.controller.AuthController - Rate limit exceeded for token refresh from IP: 0:0:0:0:0:0:0:1
